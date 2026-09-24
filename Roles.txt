@@ -1,5 +1,5 @@
 Roles
-Makhi Borders:TBD
+Makhi Borders:CSS
 William Bunch:TBD
 Charlie Lovelace:Team Lead
 Jasmine Miller: HTML Formating
