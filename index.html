@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criminal Justice Technology AAS | Cleveland Community College</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(26, 54, 93, 0.9), rgba(26, 54, 93, 0.9)), 
+                        url('https://unsplash.com') no-repeat center center/cover;
+        }
+        .text-navy { color: #1a365d; }
+        .bg-navy { background-color: #1a365d; }
+        .text-gold { color: #c5a059; }
+        .btn-gold { background-color: #c5a059; color: #1a365d; font-weight: bold; }
+        .btn-gold:hover { background-color: #dfb86e; color: #1a365d; }
+        .game-card { cursor: pointer; transition: transform 0.2s; }
+        .game-card:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navy sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold tracking-wider" href="#">CLEVELAND <span class="text-gold">CC</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-2">
+                    <li class="nav-item"><a class="nav-link text-white" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#curriculum">Curriculum</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#careers">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#interactivity">Simulations</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bg text-white text-center py-5">
+        <div class="container py-4">
+            <span class="badge bg-gold text-dark mb-3 px-3 py-2 fs-6 rounded-pill fw-bold">Program Code: A55180</span>
+            <h1 class="display-4 fw-bold mb-3">Criminal Justice Technology AAS</h1>
+            <p class="lead mx-auto mb-4" style="max-width: 800px;">Prepare for entry-level placements or leadership advancements across local, state, and federal criminal justice networks.</p>
+            <button id="cta-scroll" class="btn btn-gold btn-lg px-4 shadow-sm">Begin Your Journey</button>
+        </div>
+    </header>
+
+    <main class="container my-5" id="overview">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-navy">Program Structural Matrix</h2>
+            <p class="text-muted">A timeline structure curated to build field readiness.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 border-top border-4 border-primary shadow-sm p-4">
+                    <h3 class="h5 text-navy fw-bold mb-3">⏱️ Academic Track</h3>
+                    <p class="text-muted mb-0">An accessible framework spanning a minimum of <strong>12+ months</strong> to graduation.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 border-top border-4 border-primary shadow-sm p-4">
+                    <h3 class="h5 text-navy fw-bold mb-3">🎓 Credits Required</h3>
+                    <p class="text-muted mb-0">Consists of <strong>66–67 total semester credits</strong> balancing core field operations with general education requirements.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 border-top border-4 border-primary shadow-sm p-4">
+                    <h3 class="h5 text-navy fw-bold mb-3">⚡ Advanced Standing</h3>
+                    <p class="text-muted mb-0">Direct articulation pathways award credit standing for prior **BLET** (Basic Law Enforcement Training) credentials.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="credential-bar" class="alert alert-info border-0 border-start border-4 border-info mt-4 p-4 shadow-sm d-flex justify-content-between align-items-center">
+            <div>
+                <strong class="text-dark">Field Professional Transfer Notice:</strong> Prior completions of BLET or DOCC certification can be reviewed instantly for direct degree hours.
+            </div>
+            <button type="button" class="btn-close" id="close-alert-btn" aria-label="Close"></button>
+        </div>
+    </main>
+    
+    <section class="bg-white py-5 shadow-sm border-top border-bottom" id="curriculum">
+        <div class="container">
+            <h2 class="fw-bold text-navy text-center mb-4">Core Academic Competencies</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="accordion" id="curriculumAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#c1">
+                                    Criminology & Juvenile Justice
+                                </button>
+                            </h2>
+                            <div id="c1" class="accordion-collapse collapse" data-bs-parent="#curriculumAccordion">
+                                <div class="accordion-body">Analysis of deviency paradigms, systemic causal loops of delinquency, and restorative juvenile legal frameworks.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#c2">
+                                    Constitutional & Statutory Law
+                                </button>
+                            </h2>
+                            <div id="c2" class="accordion-collapse collapse" data-bs-parent="#curriculumAccordion">
+                                <div class="accordion-body">Deep-dive constraints analysis regarding the 4th, 5th, and 6th Amendments mapping to modern operational procedure.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5" id="interactivity">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-navy">Interactive Academic Simulations</h2>
+            <p class="text-muted">Test your core knowledge using our prototype script platforms.</p>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm p-4 text-center bg-navy text-white" id="flashcard-panel" style="min-height: 200px; display: flex; justify-content: center; align-items: center;">
+                    <div id="flashcard-content">
+                        <h4 class="fw-bold text-gold">Click to Reveal Question</h4>
+                        <p class="mb-0">Test your constitutional vocabulary parameters.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <button id="next-flashcard" class="btn btn-outline-secondary btn-sm">Next Concept Card</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card border-0 shadow-sm p-4 bg-white">
+            <h3 class="h4 text-navy fw-bold mb-3 text-center">🔎 Evidence Recovery Simulation</h3>
+            <p class="text-muted text-center">Find the pieces of evidence within the grid space before contamination rules apply.</p>
+            <div class="row g-3 text-center" id="game-grid">
+                <div class="col-4"><div class="p-4 bg-light border rounded game-card" data-index="1">Sector A</div></div>
+                <div class="col-4"><div class="p-4 bg-light border rounded game-card" data-index="2">Sector B</div></div>
+                <div class="col-4"><div class="p-4 bg-light border rounded game-card" data-index="3">Sector C</div></div>
+            </div>
+            <div id="game-feedback" class="mt-3 text-center fw-bold text-success"></div>
+        </div>
+    </section>
+
+    <footer class="bg-navy text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-1">&copy; 2026 Cleveland Community College.</p>
+        </div>
+    </footer>
+
+    <script src="https://jquery.com"></script>
+    <script src="https://jsdelivr.net"></script>
+    <script src="app.js"></script>
+</body>
+</html>
